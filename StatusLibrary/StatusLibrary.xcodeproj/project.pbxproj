@@ -13,6 +13,7 @@
 		247EBC041BF1D769002B9608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247EBC021BF1D769002B9608 /* Main.storyboard */; };
 		247EBC061BF1D769002B9608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247EBC051BF1D769002B9608 /* Assets.xcassets */; };
 		247EBC091BF1D769002B9608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247EBC071BF1D769002B9608 /* LaunchScreen.storyboard */; };
+		24ED9CCC1BF31DEB0093BA34 /* TSZTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ED9CCB1BF31DEB0093BA34 /* TSZTools.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		247EBC051BF1D769002B9608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		247EBC081BF1D769002B9608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		247EBC0A1BF1D769002B9608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24ED9CCA1BF31DEB0093BA34 /* TSZTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSZTools.h; sourceTree = "<group>"; };
+		24ED9CCB1BF31DEB0093BA34 /* TSZTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSZTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		247EBBF81BF1D769002B9608 /* StatusLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				24ED9CC91BF31DBE0093BA34 /* TSZLibrary */,
 				247EBBFC1BF1D769002B9608 /* AppDelegate.h */,
 				247EBBFD1BF1D769002B9608 /* AppDelegate.m */,
 				247EBBFF1BF1D769002B9608 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				247EBBFA1BF1D769002B9608 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24ED9CC91BF31DBE0093BA34 /* TSZLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				24ED9CCA1BF31DEB0093BA34 /* TSZTools.h */,
+				24ED9CCB1BF31DEB0093BA34 /* TSZTools.m */,
+			);
+			name = TSZLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 				247EBC011BF1D769002B9608 /* ViewController.m in Sources */,
 				247EBBFE1BF1D769002B9608 /* AppDelegate.m in Sources */,
 				247EBBFB1BF1D769002B9608 /* main.m in Sources */,
+				24ED9CCC1BF31DEB0093BA34 /* TSZTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +314,7 @@
 				247EBC0F1BF1D769002B9608 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
