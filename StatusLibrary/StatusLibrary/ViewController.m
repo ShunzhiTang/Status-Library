@@ -6,6 +6,7 @@
 
 #import "ViewController.h"
 #import "TSZTools.h"
+#import "test.h"
 
 @interface ViewController ()
 
@@ -50,7 +51,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"%zd" , [TSZTools subNumber1:10 andNumber2:2]);
+    NSLog(@"%zd", [TSZTools sumNumber1:10 andNumber2:20]);
+    NSLog(@"%zd",[test subNumber1:20 andNumber2:10]);
+    
 }
 
 @end

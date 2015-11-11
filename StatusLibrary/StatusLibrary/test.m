@@ -6,9 +6,9 @@
 //  Copyright © 2015年 Tsz. All rights reserved.
 //
 
-#import "TSZTools.h"
+#import "test.h"
 
-@implementation TSZTools
+@implementation test
 
 + (NSInteger)subNumber1:(NSInteger)num1 andNumber2:(NSInteger)num2{
     
