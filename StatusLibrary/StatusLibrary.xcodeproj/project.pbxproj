@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		241CFA611BF3E56400558C78 /* tszLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 241CFA601BF3E56400558C78 /* tszLibrary.a */; settings = {ASSET_TAGS = (); }; };
 		247EBBFB1BF1D769002B9608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 247EBBFA1BF1D769002B9608 /* main.m */; };
 		247EBBFE1BF1D769002B9608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 247EBBFD1BF1D769002B9608 /* AppDelegate.m */; };
 		247EBC011BF1D769002B9608 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 247EBC001BF1D769002B9608 /* ViewController.m */; };
 		247EBC041BF1D769002B9608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247EBC021BF1D769002B9608 /* Main.storyboard */; };
 		247EBC061BF1D769002B9608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247EBC051BF1D769002B9608 /* Assets.xcassets */; };
 		247EBC091BF1D769002B9608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247EBC071BF1D769002B9608 /* LaunchScreen.storyboard */; };
+		24DF502A1BF43B2500073E49 /* TSZToolsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DF50291BF43B2500073E49 /* TSZToolsFramework.framework */; settings = {ASSET_TAGS = (); }; };
 		24ED9CCC1BF31DEB0093BA34 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ED9CCB1BF31DEB0093BA34 /* test.m */; settings = {ASSET_TAGS = (); }; };
-		24ED9D041BF328D60093BA34 /* libTSZTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED9D031BF328D60093BA34 /* libTSZTools.a */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		241CFA601BF3E56400558C78 /* tszLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = tszLibrary.a; sourceTree = "<group>"; };
 		247EBBF61BF1D769002B9608 /* StatusLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatusLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		247EBBFA1BF1D769002B9608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		247EBBFC1BF1D769002B9608 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,11 +30,11 @@
 		247EBC051BF1D769002B9608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		247EBC081BF1D769002B9608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		247EBC0A1BF1D769002B9608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DF50291BF43B2500073E49 /* TSZToolsFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TSZToolsFramework.framework; sourceTree = "<group>"; };
 		24ED9CCA1BF31DEB0093BA34 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
 		24ED9CCB1BF31DEB0093BA34 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		24ED9D011BF328D60093BA34 /* TSZTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSZTest.h; sourceTree = "<group>"; };
 		24ED9D021BF328D60093BA34 /* TSZTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSZTools.h; sourceTree = "<group>"; };
-		24ED9D031BF328D60093BA34 /* libTSZTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTSZTools.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24ED9D041BF328D60093BA34 /* libTSZTools.a in Frameworks */,
+				241CFA611BF3E56400558C78 /* tszLibrary.a in Frameworks */,
+				24DF502A1BF43B2500073E49 /* TSZToolsFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +53,7 @@
 		247EBBED1BF1D769002B9608 = {
 			isa = PBXGroup;
 			children = (
+				24DF50291BF43B2500073E49 /* TSZToolsFramework.framework */,
 				247EBBF81BF1D769002B9608 /* StatusLibrary */,
 				247EBBF71BF1D769002B9608 /* Products */,
 			);
@@ -66,8 +70,8 @@
 		247EBBF81BF1D769002B9608 /* StatusLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				241CFA601BF3E56400558C78 /* tszLibrary.a */,
 				24ED9CFF1BF328D60093BA34 /* include */,
-				24ED9D031BF328D60093BA34 /* libTSZTools.a */,
 				24ED9CC91BF31DBE0093BA34 /* TSZLibrary */,
 				247EBBFC1BF1D769002B9608 /* AppDelegate.h */,
 				247EBBFD1BF1D769002B9608 /* AppDelegate.m */,
@@ -232,7 +236,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -252,6 +256,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -276,7 +281,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -290,6 +295,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,6 +307,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Debug-iphonesimulator",
+				);
 				INFOPLIST_FILE = StatusLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -308,6 +319,8 @@
 					"$(PROJECT_DIR)/StatusLibrary",
 					"$(PROJECT_DIR)",
 				);
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = tsz.StatusLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -317,6 +330,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Debug-iphonesimulator",
+				);
 				INFOPLIST_FILE = StatusLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -324,6 +342,8 @@
 					"$(PROJECT_DIR)/StatusLibrary",
 					"$(PROJECT_DIR)",
 				);
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = tsz.StatusLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

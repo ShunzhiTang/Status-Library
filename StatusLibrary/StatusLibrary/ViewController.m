@@ -8,6 +8,9 @@
 #import "TSZTools.h"
 #import "test.h"
 
+//导入动态库
+#import <TSZToolsFramework/TSZCaluTools.h>
+
 @interface ViewController ()
 
 @end
@@ -24,7 +27,6 @@
  iPhone3gs-->iPhone4s : armv7
  iPhone5-->iPhone5c : armv7s
  iPhone5s-->iPhone6plus : arm64
- 
  
  通过下列命令查看静态库支持哪些架构:
  lipo -info 静态库.a
@@ -45,7 +47,6 @@
  为了避免类库中的图片资源跟其他项目文件重名, 需要进行添加bundle目录的处理
  */
 
-
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -53,6 +54,8 @@
     
     NSLog(@"%zd", [TSZTools sumNumber1:10 andNumber2:20]);
     NSLog(@"%zd",[test subNumber1:20 andNumber2:10]);
+    
+    [TSZCaluTools speakPerson];
     
 }
 
